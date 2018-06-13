@@ -29,19 +29,5 @@ INSERT INTO characters(name, species, motto, series_id, author_id) VALUES
   ("Albus Dumbledore", "Human Wizard", "It does not do to dwell on dreams and forget to live.", 2, 2);
 
 INSERT INTO character_books(book_id, character_id) VALUES
-  (1, 1),
-  (2, 1),
-  (3, 1),
-  (4, 5),
-  (5, 5),
-  (6, 5),
-  (1, 4),
-  (2, 4),
-  (3, 4),
-  (4, 8),
-  (5, 8),
-  (6, 8),
-  (1, 2),
-  (1, 3),
-  (4, 7),
-  (4, 7);
+  (1, 1), (2, 1), (3, 1), (4, 5), (5, 5), (6, 5), (1, 4), (2, 4), 
+  (3, 4), (4, 8), (5, 8), (6, 8), (1, 2), (1, 3), (4, 7), (4, 7);
