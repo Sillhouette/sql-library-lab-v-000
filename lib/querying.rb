@@ -21,4 +21,3 @@ end
 def select_character_names_and_number_of_books_they_are_in
   "SELECT name, COUNT(character_books.id) from character JOIN character_books ON characters.id = character_books.character_id GROUP BY name ORDER BY COUNT(character_books.id) DESC"
 end
-CREATE TABLE character_books (id INTEGER PRIMARY KEY, book_id INTEGER, character_id INTEGER);
