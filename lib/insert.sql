@@ -10,7 +10,7 @@ INSERT INTO authors(id, name) VALUES
 INSERT INTO books(id, title, year, series_id) VALUES
   (1, "The Lion, The Witch, and The Wardrobe", 1950, 1),
   (2, "Prince Caspian", 1951, 1),
-  (3, "The Last Battle", 1956, 1);
+  (3, "The Last Battle", 1956, 1),
   (4, "The Sorcer's Stone", 1997, 2),
   (5, "Prisoner of Azkaban", 1999, 2),
   (6, "The Order of Phoenix", 2003, 2);
