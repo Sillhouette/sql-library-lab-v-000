@@ -1,5 +1,5 @@
 UPDATE characters
 SET species = "Martian"
 WHERE id = 8
-ORDER BY DESC
+ORDER BY species DESC
 LIMIT 1;
