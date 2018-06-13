@@ -1,8 +1,7 @@
 INSERT INTO series(title, author_id, subgenre_id) VALUES
   ("Chronicles of Narnia" , 1 , 2), ("Harry Potter" , 2 , 2);
 
-INSERT INTO subgenres(name) VALUES
-  ("Christian Fantasy"), ("Fantasy");
+INSERT INTO subgenres(name) VALUES ("Christian Fantasy"), ("Fantasy");
 
 INSERT INTO authors(name) VALUES
   ("C.S. Lewis"), ("JK Rowling");
