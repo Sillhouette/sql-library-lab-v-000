@@ -19,29 +19,29 @@ INSERT INTO books(title, year, series_id) VALUES
   ("The Order of Phoenix", 2003, 2);
 
 INSERT INTO characters(name, species, motto, series_id, author_id) VALUES
-  characters ("Aslan", "Lion", "I am, said Aslan. But there I have another name. You must learn to know me by that name. This was the very reason why you were brought to Narnia, that by knowing me here for a little, you may know me better there.", 1, 1),
-  characters ("The White Witch", "Human", "Understand that you have given me Narnia forever, you have lost your own life and you have not saved his. In that knowledge, despair and die.", 1, 1),
-  characters ("Mr. Tumnus", "Faun", "Should I be right in thinking that you are a Daughter of Eve?", 1, 1),
-  characters ("Lucy", "Human", "Will we ever go back?", 1, 1),
-  characters ("Harry Potter", "Human Wizard", "I solemnly swear I am up to no good.", 2, 2),
-  characters ("Hermione Granger", "Human Witch", "Just because you’ve got the emotional range of a teaspoon doesn’t mean we all have.", 2, 2),
-  characters ("Ronald Weasley", "Human Wizard", "Bloody Hell!" ,2 ,2),
-  characters ("Albus Dumbledore", "Human Wizard", "It does not do to dwell on dreams and forget to live.", 2, 2);
+  ("Aslan", "Lion", "I am, said Aslan. But there I have another name. You must learn to know me by that name. This was the very reason why you were brought to Narnia, that by knowing me here for a little, you may know me better there.", 1, 1),
+  ("The White Witch", "Human", "Understand that you have given me Narnia forever, you have lost your own life and you have not saved his. In that knowledge, despair and die.", 1, 1),
+  ("Mr. Tumnus", "Faun", "Should I be right in thinking that you are a Daughter of Eve?", 1, 1),
+  ("Lucy", "Human", "Will we ever go back?", 1, 1),
+  ("Harry Potter", "Human Wizard", "I solemnly swear I am up to no good.", 2, 2),
+  ("Hermione Granger", "Human Witch", "Just because you’ve got the emotional range of a teaspoon doesn’t mean we all have.", 2, 2),
+  ("Ronald Weasley", "Human Wizard", "Bloody Hell!" ,2 ,2),
+  ("Albus Dumbledore", "Human Wizard", "It does not do to dwell on dreams and forget to live.", 2, 2);
 
 INSERT INTO character_books(book_id, character_id) VALUES
-  character_books (1, 1),
-  character_books (2, 1),
-  character_books (3, 1),
-  character_books (4, 5),
-  character_books (5, 5),
-  character_books (6, 5),
-  character_books (1, 4),
-  character_books (2, 4),
-  character_books (3, 4),
-  character_books (4, 8),
-  character_books (5, 8),
-  character_books (6, 8),
-  character_books (1, 2),
-  character_books (1, 3),
-  character_books (4, 7),
-  character_books (4, 7);
+  (1, 1),
+  (2, 1),
+  (3, 1),
+  (4, 5),
+  (5, 5),
+  (6, 5),
+  (1, 4),
+  (2, 4),
+  (3, 4),
+  (4, 8),
+  (5, 8),
+  (6, 8),
+  (1, 2),
+  (1, 3),
+  (4, 7),
+  (4, 7);
