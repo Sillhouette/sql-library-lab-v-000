@@ -1,32 +1,32 @@
-
-  INSERT INTO series (title, author_id, subgenre_id) VALUES ('Chronicles of Narnia', 1 ,1);
-  INSERT INTO series (title, author_id, subgenre_id) VALUES ('Harry Potter', 2 ,2);
+INSERT INTO series (title, author_id, subgenre_id) VALUES
+  ("Chronicles of Narnia" , 1 , 2),
+  ("Harry Potter" , 2 , 2);
 
 INSERT INTO subgenres(name) VALUES
-  ('Christian Fantasy'),
-  ('Fantasy');
+  ("Christian Fantasy"),
+  ("Fantasy");
 
 INSERT INTO authors(name) VALUES
-  ('C.S. Lewis'),
-  ('JK Rowling');
+  ("C.S. Lewis"),
+  ("JK Rowling");
 
 INSERT INTO books(title, year, series_id) VALUES
-  ('The Lion, The Witch, and The Wardrobe', 1950, 1),
-  ('Prince Caspian', 1951, 1),
-  ('The Last Battle', 1956, 1);
-  ('The Sorcers Stone', 1997, 2),
-  ('Prisoner of Azkaban', 1999, 2),
-  ('The Order of Phoenix', 2003, 2);
+  ("The Lion, The Witch, and The Wardrobe", 1950, 1),
+  ("Prince Caspian", 1951, 1),
+  ("The Last Battle", 1956, 1);
+  ("The Sorcer's Stone", 1997, 2),
+  ("Prisoner of Azkaban", 1999, 2),
+  ("The Order of Phoenix", 2003, 2);
 
 INSERT INTO characters(name, species, motto, series_id, author_id) VALUES
-  characters ('Aslan', 'Lion', 'I am, said Aslan. But there I have another name. You must learn to know me by that name. This was the very reason why you were brought to Narnia, that by knowing me here for a little, you may know me better there.', 1, 1),
-  characters ('The White Witch', 'Human', 'Understand that you have given me Narnia forever, you have lost your own life and you have not saved his. In that knowledge, despair and die.', 1, 1),
-  characters ('Mr. Tumnus', 'Faun', 'Should I be right in thinking that you are a Daughter of Eve?', 1, 1),
-  characters ('Lucy', 'Human', 'Will we ever go back?', 1, 1),
-  characters ('Harry Potter', 'Human Wizard', 'I solemnly swear I am up to no good.', 2, 2),
-  characters ('Hermione Granger', 'Human Witch', 'Just because you’ve got the emotional range of a teaspoon doesn’t mean we all have.', 2, 2),
-  characters ('Ronald Weasley', 'Human Wizard', 'Bloody Hell!' ,2 ,2),
-  characters ('Albus Dumbledore', 'Human Wizard', 'It does not do to dwell on dreams and forget to live.', 2, 2);
+  characters ("Aslan", "Lion", "I am, said Aslan. But there I have another name. You must learn to know me by that name. This was the very reason why you were brought to Narnia, that by knowing me here for a little, you may know me better there.", 1, 1),
+  characters ("The White Witch", "Human", "Understand that you have given me Narnia forever, you have lost your own life and you have not saved his. In that knowledge, despair and die.", 1, 1),
+  characters ("Mr. Tumnus", "Faun", "Should I be right in thinking that you are a Daughter of Eve?", 1, 1),
+  characters ("Lucy", "Human", "Will we ever go back?", 1, 1),
+  characters ("Harry Potter", "Human Wizard", "I solemnly swear I am up to no good.", 2, 2),
+  characters ("Hermione Granger", "Human Witch", "Just because you’ve got the emotional range of a teaspoon doesn’t mean we all have.", 2, 2),
+  characters ("Ronald Weasley", "Human Wizard", "Bloody Hell!" ,2 ,2),
+  characters ("Albus Dumbledore", "Human Wizard", "It does not do to dwell on dreams and forget to live.", 2, 2);
 
 INSERT INTO character_books(book_id, character_id) VALUES
   character_books (1, 1),
